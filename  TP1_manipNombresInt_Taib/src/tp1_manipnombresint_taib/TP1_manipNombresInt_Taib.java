@@ -30,6 +30,7 @@ public class TP1_manipNombresInt_Taib {
         System.out.println("difference  x-y=" + v);
         System.out.println("Produit  xy=" + w);
         System.out.println("quotient x/y=" + r + "et le reste=" + m);
+        
 
     }
     
