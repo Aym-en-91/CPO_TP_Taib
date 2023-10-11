@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.tp2_bieres_taib;
+package tp2_bieres_taib;
 
 /**
  *
@@ -10,11 +10,11 @@ package com.mycompany.tp2_bieres_taib;
  */
 public class BouteilleBiere {
     public String nom;
-    public float degreAlcool;
+    public double degreAlcool;
     public String brasserie;
     public boolean ouverte;
 
-    public BouteilleBiere(String unNom, float unDegre, String uneBrasserie) {
+    public BouteilleBiere(String unNom, double unDegre, String uneBrasserie) {
         this.nom = unNom;
         this.degreAlcool = unDegre;
         this.brasserie = uneBrasserie;
