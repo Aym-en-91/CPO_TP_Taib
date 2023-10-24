@@ -4,6 +4,9 @@
  */
 package tp1_guessmynumber_taib;
 
+import java.util.Random;
+import java.util.Scanner;
+
 /**
  *
  * @author aymen
