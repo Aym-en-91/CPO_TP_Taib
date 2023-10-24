@@ -5,7 +5,7 @@
 package Arme;
 
 /**
- *
+ *.
  * @author aymen
  */
 public abstract class Arme {

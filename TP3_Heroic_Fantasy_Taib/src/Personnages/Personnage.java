@@ -17,14 +17,14 @@ public abstract class Personnage implements etreVivant {
     private String nom;
     private int niveau_vie;
     private int niveau_attaque;
-    private ArrayList<Arme> armes;
+    private final ArrayList<Arme> armes;
     private Arme Arme_en_Main = null;
     private static int nombre_pers = 0;
 
     public Personnage(String nom, int niveau_vie) {
         this.nom = nom;
         this.niveau_vie = niveau_vie;
-        armes = new ArrayList<Arme>();
+        armes = new ArrayList<>();
         nombre_pers++;
     }
     @Override

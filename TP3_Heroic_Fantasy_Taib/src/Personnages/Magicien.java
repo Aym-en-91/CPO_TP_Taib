@@ -40,6 +40,7 @@ public class Magicien extends Personnage {
         this.seFatiguer();
     
     }
+    @Override
     public void estAttaqué(int points){
         if (this.isConfirme()) {
             this.setNiveau_vie(this.getNiveau_vie() - (points/2));

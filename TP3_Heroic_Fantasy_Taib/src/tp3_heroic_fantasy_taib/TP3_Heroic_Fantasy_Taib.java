@@ -52,7 +52,7 @@ public class TP3_Heroic_Fantasy_Taib {
         if (guerrier.estVivant()) {
             System.out.println("Le guerrier est vivant");
         } else {
-            System.out.println("Le guerrier est mort");
+            System.out.print("le guerrier est mort");
         }
         
         
