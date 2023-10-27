@@ -112,7 +112,7 @@ public class GrilleDeCellules {
                 }
                 break;
             default:
-                // Ne devrait jamais arriver
+                
         }
     }
 
@@ -139,9 +139,9 @@ public class GrilleDeCellules {
         }
     }
 
-    // Ajoutez les autres méthodes conformément au descriptif
+   
 
-    // ...
+ 
 
     /**
      * Méthode principale pour tester la classe GrilleDeCellules.
@@ -154,7 +154,7 @@ public class GrilleDeCellules {
         System.out.println("Initial Grid State:");
         System.out.println(grille);
 
-        // Testez chacune des méthodes dans le main pour vérifier qu'elle fonctionne bien
+      
         grille.activerLigneColonneOuDiagonaleAleatoire();
         System.out.println("Grid State After Random Activation:");
         System.out.println(grille);

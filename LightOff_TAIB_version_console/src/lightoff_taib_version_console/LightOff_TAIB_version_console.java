@@ -17,7 +17,7 @@ public class LightOff_TAIB_version_console {
         Partie game = new Partie(3,3);
         game.initialiserPartie();
 
-        // Launch the game
+       
         game.lancerPartie();
     }
     

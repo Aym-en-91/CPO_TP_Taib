@@ -16,7 +16,7 @@ public class CelluleLumineuse {
      * Constructeur par défaut. Initialise la cellule comme éteinte.
      */
     public CelluleLumineuse() {
-        this.allumee = false;
+        this.allumee= false;
     }
 
     /**
