@@ -8,9 +8,6 @@ package lightoff_taib_version_console;
  *
  * @author YOGA
  */
-
-
-
 import java.util.Random;
 
 public class GrilleDeCellules {
@@ -22,13 +19,13 @@ public class GrilleDeCellules {
      * @param lignes   Le nombre de lignes dans la grille.
      * @param colonnes Le nombre de colonnes dans la grille.
      */
-    public GrilleDeCellules(int lignes, int colonnes) {
+    public GrilleDeCellules(int lignes, int colonnes) {        
         matriceCellules = new CelluleLumineuse[lignes][colonnes];
-
+        Random random = new Random();
         // Initialise chaque cellule dans la matrice
         for (int i = 0; i < lignes; i++) {
             for (int j = 0; j < colonnes; j++) {
-                matriceCellules[i][j] = new CelluleLumineuse();
+                matriceCellules[i][j] = new CelluleLumineuse(random.nextBoolean());
             }
         }
     }
@@ -58,7 +55,13 @@ public class GrilleDeCellules {
             matriceCellules[idLigne][j].allumer();
         }
     }
-
+    public void toggleCellule(int row, int col) {
+        if (row >= 0 && row < matriceCellules.length && col >= 0 && col < matriceCellules[0].length) {
+            matriceCellules[row-1][col-1].inverserEtat();
+        } else {
+            System.out.println("Invalid cellule coordinates.");
+        }
+    }
     /**
      * Active toutes les cellules dans la colonne spécifiée.
      * 

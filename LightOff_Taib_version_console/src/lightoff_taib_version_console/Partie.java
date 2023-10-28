@@ -48,7 +48,7 @@ public class Partie {
     private void toggleCell(int row, int col) {
         // Add logic to toggle the state of the selected cell
         // For example, you might want to toggle the cell in the grid
-        // grille.toggleCell(row, col);
+        grille.toggleCellule(row, col);
     }
 
     private boolean partieTerminee() {

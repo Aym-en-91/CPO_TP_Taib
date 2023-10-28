@@ -14,7 +14,7 @@ public class LightOff_Taib_version_console {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Partie game = new Partie(3, 3);
+        Partie game = new Partie(5, 5);
         game.initialiserPartie();
 
         // Launch the game
